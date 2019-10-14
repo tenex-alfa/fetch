@@ -1,9 +1,8 @@
 import fetch from "../../src/index"
 
 const sample = {
-    url: "https://registry.npmjs.org/@tenex/body-parser",
-    out: "versions>0.0.0>dependencies>@types/qs",
-
+    url: "https://api.github.com/orgs/tenex-alfa",
+    out: "public_repos"
 };
 
 (async () => {

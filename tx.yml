@@ -10,5 +10,5 @@ template:
 mock:
   name: myTestResource
   args:
-    - url: https://registry.npmjs.org/@tenex/
-      out: code
+    - url: https://api.github.com/orgs/tenex-alfa
+      out: public_repos
