@@ -1,0 +1,14 @@
+template:
+  url: String
+  out?: String
+  body?: {}
+  method?: -get
+    -post
+    -put
+    -delete
+
+mock:
+  name: myTestResource
+  args:
+    - url: https://registry.npmjs.org/@tenex/
+      out: code
