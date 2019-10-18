@@ -1,13 +1,13 @@
 {
   "name": "@tenex/fetch",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Easiest way of running a service ever.",
   "main": "dist/index.js",
   "scripts": {
     "publish": "git add . ; echo 'enter commit message' & read -p \"Commit description: \" desc; git commit -m \"$desc\" & git push ; npm publish --access public",
     "test": "mocha -r ts-node/register tests/**/*",
     "coverage": "nyc -r lcov -e .ts -x \"*.test.ts\" npm run test",
-    "build": "tsc",
+    "build": "node build && tsc",
     "start": "npm run build && node dist "
   },
   "dependencies": {
