@@ -1,6 +1,6 @@
 {
   "name": "@tenex/fetch",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Easiest way of running a service ever.",
   "main": "dist/index.js",
   "scripts": {
